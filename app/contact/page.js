@@ -1,6 +1,6 @@
 import React from "react";
 
-function page() {
+function Contact() {
   return (
     <main>
       <section>
@@ -26,4 +26,4 @@ function page() {
   );
 }
 
-export default page;
+export default Contact;
