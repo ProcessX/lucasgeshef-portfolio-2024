@@ -2,10 +2,10 @@ import React from "react";
 
 function Contact() {
   return (
-    <main>
+    <main className="bg-light-50 text-dark-900 h-[100vh]">
       <section>
         <div>
-          <h1>
+          <h1 className="c-font-4xl">
             <span>Want to reach out?</span>
             <span>Find me here</span>
           </h1>
@@ -14,7 +14,7 @@ function Contact() {
           <span>Contact button</span>
         </div>
         <div>
-          <p>Or check my socials</p>
+          <p className="c-font-base">Or check my socials</p>
           <ul>
             <li>
               <span>Social icon</span>

@@ -5,7 +5,7 @@ function ProjectDetail() {
     <main>
       <section>
         <div>
-          <h1>Project title</h1>
+          <h1 className="c-font-4xl">Project title</h1>
           <div>
             <p>20XX</p>
             <p>Category</p>
@@ -23,7 +23,7 @@ function ProjectDetail() {
               <p>Technology list</p>
             </li>
           </ul>
-          <p>Project description</p>
+          <p className="c-font-lg">Project description</p>
           <ul>
             <li>
               <p>Buttons</p>
