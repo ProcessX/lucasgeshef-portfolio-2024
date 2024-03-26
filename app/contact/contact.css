@@ -1,0 +1,8 @@
+.headerMenu {
+  background-color: #fff8ef;
+  color: #121212;
+}
+
+.logo::before {
+  border-color: #121212;
+}
