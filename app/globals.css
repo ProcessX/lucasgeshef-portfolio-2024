@@ -47,7 +47,8 @@ html {
   padding-left: 1.5rem;
   padding-right: 1.5rem;
   max-width: 480px;
-  margin: auto;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .logo {
@@ -111,7 +112,6 @@ html {
     padding-left: 3rem;
     padding-right: 3rem;
     max-width: 720px;
-    margin: auto;
   }
 
   .logo::before {
@@ -152,7 +152,6 @@ html {
     padding-left: 3.5rem;
     padding-right: 3.5rem;
     max-width: 1120px;
-    margin: auto;
   }
 }
 
@@ -186,7 +185,6 @@ html {
     padding-left: 4rem;
     padding-right: 4rem;
     max-width: 1600px;
-    margin: auto;
   }
 
   .logo::before {
