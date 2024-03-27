@@ -1,5 +1,6 @@
 import React from "react";
 import "./contact.css";
+import Button from "@/components/button/Button";
 
 function Contact() {
   return (
@@ -10,7 +11,9 @@ function Contact() {
             <span className="block">Want to reach out?</span>
             <span className="block">Find me here</span>
           </h1>
-          <p className="inline-block float-end">Button</p>
+          <div className="inline-block float-end pt-16">
+            <Button label="contact@lucasgeshef.be" />
+          </div>
         </div>
         <div className="containerRaw w-full">
           <p className="c-font-base text-right">Or check my socials</p>

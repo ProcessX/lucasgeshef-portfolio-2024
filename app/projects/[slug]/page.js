@@ -1,5 +1,6 @@
 import React from "react";
 import Head from 'next/head'
+import Button from "@/components/button/Button";
 
 function ProjectDetail() {
   return (
@@ -22,17 +23,24 @@ function ProjectDetail() {
 
       <section>
         <div className="containerRaw">
-          <ul>
-            <li>
-              <p>Technology list</p>
-            </li>
-          </ul>
-          <p className="c-font-lg">Project description</p>
-          <ul>
-            <li>
-              <p>Buttons</p>
-            </li>
-          </ul>
+          <div className="laptop:grid laptop:grid-cols-12">
+            <ul className="laptop:col-span-10 laptop:col-start-3">
+              <li>
+                <p>Technology list</p>
+              </li>
+            </ul>
+            <div className="laptop:col-span-10 laptop:col-start-3">
+              <p className="c-font-lg">Lorem ipsum dolor sit amet consectetur. Ut egestas adipiscing bibendum ac sem. Neque in duis pharetra nibh dictum elementum. Mauris quam eros aenean sapien nibh. Massa auctor pellentesque consectetur pretium ridiculus.</p>
+            </div>
+            <ul className="flex mt-[80px] laptop:col-span-10 laptop:col-start-3">
+              <li className="mr-8">
+                <Button label="See website" />
+              </li>
+              <li>
+                <Button label="See design" type="outline" />
+              </li>
+            </ul>
+          </div>
         </div>
       </section>
 
