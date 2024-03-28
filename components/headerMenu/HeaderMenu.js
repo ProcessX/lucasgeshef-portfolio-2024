@@ -1,5 +1,6 @@
 import Link from 'next/link'
 import React from 'react'
+import Button from '../button/Button'
 
 function HeaderMenu() {
   return (
@@ -16,6 +17,30 @@ function HeaderMenu() {
             </li>
           </ul>
         </nav>
+      </div>
+      <div className='absolute left-0 top-0 bg-primary-50 h-[100vh] w-full text-dark-950 flex flex-col justify-between'>
+        <div className='containerRaw w-full'>
+          <nav className='mt-[160px]'>
+            <ul>
+              <li className='mb-4'>
+                <Link href={'#'} className='c-font-4xl hover:opacity-50 duration-150'>Home</Link>
+              </li>
+              <li>
+                <Link href={'#'} className='c-font-4xl hover:opacity-50 duration-150'>Projects</Link>
+              </li>
+            </ul>
+          </nav>
+          <div className='mt-[96px]'>
+            <p className='mb-6'>
+              <span className='c-font-base block'>Want to reach out?</span>
+              <span className='c-font-base block'>Find me here.</span>
+            </p>
+            <Button label='contact@lucasgeshef.be' className="w-full" />
+          </div>
+        </div>
+        <div className='containerRaw w-full'>
+          <p>Or check my socials</p>
+        </div>
       </div>
     </header>
   )
