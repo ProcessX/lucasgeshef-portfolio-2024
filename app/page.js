@@ -16,8 +16,18 @@ export default function Home() {
         <div className="containerRaw laptop:w-full laptop:mb-0">
           <div className="laptop:grid laptop:grid-cols-12">
             <p className="c-font-base mb-8 laptop:col-span-2 laptop:mb-[64px] laptop:self-end">My latest work</p>
-            <ul className="laptop:col-span-10">
-              <li>
+            <ul className="laptop:col-span-10 laptop:flex">
+              <li className="w-full">
+                <div>
+                  <LatestWorkCard />
+                </div>
+              </li>
+              <li className="w-full">
+                <div>
+                  <LatestWorkCard />
+                </div>
+              </li>
+              <li className="w-full">
                 <div>
                   <LatestWorkCard />
                 </div>
