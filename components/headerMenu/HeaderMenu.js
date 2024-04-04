@@ -18,6 +18,7 @@ function HeaderMenu() {
           </ul>
         </nav>
       </div>
+      {/*
       <div className='absolute left-0 top-0 bg-primary-50 h-[100vh] w-full text-dark-950 flex flex-col justify-between'>
         <div className='containerRaw w-full'>
           <nav className='mt-[160px]'>
@@ -42,6 +43,10 @@ function HeaderMenu() {
           <p>Or check my socials</p>
         </div>
       </div>
+      */
+
+      }
+
     </header>
   )
 }
