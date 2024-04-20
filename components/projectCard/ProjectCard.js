@@ -7,7 +7,7 @@ function ProjectCard() {
       <div className='h-[240px] w-full bg-dark-800 rounded-lg'>
 
       </div>
-      <h4 className='c-font-lg'>Project name</h4>
+      <h4 className='c-font-lg mt-2'>Project name</h4>
       <p className='text-dark-200'>Project category</p>
     </Link>
   )

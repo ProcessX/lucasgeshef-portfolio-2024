@@ -1,6 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import "material-symbols";
 
 html {
   font-size: 16px;
@@ -80,6 +81,10 @@ html {
   width: 100%;
   background-color: #fff8ef;
   z-index: -50;
+}
+
+.arrowLink .material-symbols-sharp {
+  font-size: 40px;
 }
 
 @media screen and (min-width: 640px) {
